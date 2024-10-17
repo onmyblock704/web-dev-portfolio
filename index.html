@@ -1,0 +1,408 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Google Font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+  <!--Font Awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css" />
+  <title>Joshua Nixon</title>
+</head>
+<body>
+  <!--Gradient Background-->
+  <div class="gradient-background"></div>
+
+  <!--Hero Section-->
+  <section class="hero">
+    <div class="title">
+      <div>
+        <h1 class="title1">Hello I'm</h1>
+        <img src="./img/title1.jpg" class="img1">
+      </div>
+      <div>
+        <img src="./img/title2.jpg" class="img2">
+        <h1 class="title2">Joshua</h1>
+      </div>
+      <div><h1 class="title3">Nixon</h1></div>
+    </div>
+  </section>
+
+  <!--Navbar Menu-->
+  <nav class="navbar">
+    <div class="container">
+      <a href="#about">
+        <span>About</span>
+        <i class="fas fa-user"></i>
+      </a>
+      <a href="#skills">
+        <span>Skills</span>
+        <i class="fas fa-pen-ruler"></i>
+      </a>
+      <a href="#projects">
+        <span>Projects</span>
+        <i class="fas fa-layer-group"></i>
+      </a>
+      <a href="#experience">
+        <span>Experience</span>
+        <i class="fas fa-timeline"></i>
+      </a>
+      <a href="#contact">
+        <span>Contact</span>
+        <i class="fas fa-envelope"></i>
+      </a>
+    </div>
+  </nav>
+
+  <!--About Section-->
+  <section id="about" class="scroll-checkpoint">
+    <div class="heading">
+      <h1>About Me</h1>
+    </div>
+    <div class="container">
+      <div class="profile-img">
+        <div class="card">
+          <img src="./img/profile.jpg" alt="profile">
+        </div>
+      </div>
+      <div>
+        <p>
+          Greetings! I'm Joshua Nixon, a results-driven Full Stack Developer with a fervor for creating robust and scalable applications. My journey in the world of coding began with a curiosity that evolved into a relentless passion. I specialize in translating complex concepts into clean, efficient, and user-friendly solutions.
+        </p>
+        <p>
+          My technical expertise spans a wide range of languages and frameworks, allowing me to navigate through the ever-evolving landscape of software development. I believe in the power of collaboration and continuous learning, always seeking new challenges to enhance my skills.
+        </p>
+        <p>
+          In addition to my technical capabilities, I bring a keen eye for design and user experience. I understand that great software not only functions flawlessly but also delights users with its intuitive interface.
+        </p>
+        <p>
+          Outside the realm of coding, you can find me exploring the latest in technology and occasionally penning down my thoughts on my blog. I thrive in dynamic environments and welcome opportunities to contribute my skills to innovative projects.
+        </p>
+        <p>
+          Let's build something amazing together! Feel free to reach out for collaboration, questions, or just to geek out over the latest in tech.
+        </p>
+        <p>
+          Looking forward to connecting with you,
+        </p>
+        <p class="dev-name">Joshua Nixon</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="scroll-checkpoint">
+    <div class="heading">
+      <h1>Skills</h1>
+    </div>
+    <div class="container">
+      <div class="main-skills">
+        <div class="skill">
+          <i class="fab fa-html5"></i>
+          <div>
+            <h3 class="skill-name">HTML</h3>
+            <div class="progress-bar">
+              <div class="progress" data-level="90"></div>
+            </div>
+          </div>
+        </div>
+        <div class="skill">
+          <i class="fab fa-css3-alt"></i>
+          <div>
+            <h3 class="skill-name">CSS</h3>
+            <div class="progress-bar">
+              <div class="progress" data-level="80"></div>
+            </div>
+          </div>
+        </div>
+        <div class="skill">
+          <i class="fab fa-js"></i>
+          <div>
+            <h3 class="skill-name">JavaScript</h3>
+            <div class="progress-bar">
+              <div class="progress" data-level="70"></div>
+            </div>
+          </div>
+        </div>
+        <div class="skill">
+          <i class="fab fa-react"></i>
+          <div>
+            <h3 class="skill-name">React JS</h3>
+            <div class="progress-bar">
+              <div class="progress" data-level="80"></div>
+            </div>
+          </div>
+        </div>
+        <div class="skill">
+          <i class="fab fa-python"></i>
+          <div>
+            <h3 class="skill-name">Solidity</h3>
+            <div class="progress-bar">
+              <div class="progress" data-level="55"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="other-skills">
+        <p><b>Programming Languages:</b> JavaScript (ES6+), Solidity, Java</p>
+        <p><b>Web Technologies:</b> HTML5, CSS3, React.js, Node.js, Express.js</p>
+        <p><b>Server-Side Development:</b> RESTful API</p>
+        <p><b>Database Management:</b> MongoDB, MySQL, PostgreSQL</p>
+        <p><b>Version Control:</b> Git, GitHub</p>
+        <p><b>UI/UX Design:</b> Responsive web design principles, UI/UX collaboration</p>
+      </div>
+    </div>
+  </section>
+
+  <!--Projects Section-->
+  <section id="projects" class="scroll-checkpoint">
+    <div class="heading">
+      <h1>Projects</h1>
+    </div>
+    <div class="container">
+      <div class="gallery">
+        <div class="gallery-controls">
+          <button type="button">
+            All
+          </button>
+          <button type="button" data-btn="1">
+            Business
+          </button>
+          <button type="button" data-btn="2">
+            Eccomerce
+          </button>
+          <button type="button" data-btn="3">
+            Design
+          </button>
+          <button type="button" data-btn="4">
+            Other
+          </button>
+        </div>
+        <div class="images">
+          <img src="https://picsum.photos/id/23/600/450" alt="img" data-img="1"/>
+          <img src="https://picsum.photos/id/53/600/450" alt="img" data-img="2"/>
+          <img src="https://picsum.photos/id/832/600/450" alt="img" data-img="2"/>
+          <img src="https://picsum.photos/id/44/600/450" alt="img" data-img="1"/>
+          <img src="https://picsum.photos/id/22/600/450" alt="img" data-img="3"/>
+          <img src="https://picsum.photos/id/721/600/450" alt="img" data-img="1"/>
+          <img src="https://picsum.photos/id/821/600/450" alt="img" data-img="4"/>
+          <img src="https://picsum.photos/id/353/600/450" alt="img" data-img="2"/>
+          <img src="https://picsum.photos/id/44/600/450" alt="img" data-img="3"/>
+          <img src="https://picsum.photos/id/33/600/450" alt="img" data-img="1"/>
+          <img src="https://picsum.photos/id/336/600/450" alt="img" data-img="2"/>
+          <img src="https://picsum.photos/id/83/600/450" alt="img" data-img="4"/>
+          <img src="https://picsum.photos/id/393/600/450" alt="img" data-img="2"/>
+          <img src="https://picsum.photos/id/426/600/450" alt="img" data-img="4"/>
+          <img src="https://picsum.photos/id/536/600/450" alt="img" data-img="3"/>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Experience Section-->
+  <section id="experience" class="scroll-checkpoint">
+    <div class="heading">
+      <h1>Experience</h1>
+    </div>
+    <div class="timeline">
+      <div class="checkpoint">
+        <div>
+          <h2>Full Stack Developer | Tech Innovators Co. | January 2021 - Present</h2>
+          <ol>
+            <li>
+              Spearheaded the development of a customer relationship management (CRM) system, streamlining client interactions and improving internal workflows.
+            </li>
+            <li>
+              Collaborated with cross-functional teams to implement new features, ensuring seamless integration with existing systems.
+            </li>
+            <li>
+              Conducted regular code reviews and mentored junior developers, fostering a culture of continuous learning and improvement.
+            </li>
+          </ol>
+        </div>
+      </div>
+      <div class="checkpoint">
+        <div>
+          <h2>Software Engineer | FutureTech Solutions | June 2019 - December 2020</h2>
+          <ol>
+            <li>
+              Engineered front-end components for a cutting-edge e-commerce platform, resulting in a 20% increase in user engagement.
+            </li>
+            <li>
+              Integrated third-party APIs to enhance product search functionality and optimize the checkout process.
+            </li>
+            <li>
+              Led a performance optimization initiative, reducing page load times by 30% and enhancing overall user experience.
+            </li>
+          </ol>
+        </div>
+      </div>
+      <div class="checkpoint">
+        <div>
+          <h2>Web Developer Intern | InnovateX Labs | May 2018 - August 2018</h2>
+          <ol>
+            <li>
+              Contributed to the development of a responsive web application for real-time data visualization.
+            </li>
+            <li>
+              Assisted in troubleshooting and debugging issues, gaining valuable hands-on experience in problem-solving.
+            </li>
+            <li>
+              Collaborated with senior developers to implement new features and improve application performance.
+            </li>
+          </ol>
+        </div>
+      </div>
+      <div class="checkpoint">
+        <div>
+          <h2>Junior Software Developer | CodeCraft Solutions | September 2017 - April 2018</h2>
+          <ol>
+            <li>
+              Played a key role in the development of a scalable content management system (CMS) for a diverse range of clients.
+            </li>
+            <li>
+              Implemented security measures and conducted regular audits to ensure the integrity of client data.
+            </li>
+            <li>
+              Provided technical support and training to clients during the onboarding process.
+            </li>
+          </ol>
+        </div>
+      </div>
+      <div class="checkpoint">
+        <div>
+          <h2>Front-End Developer | Digital Dynamics Agency | January 2016 - August 2017</h2>
+          <ol>
+            <li>
+              Designed and implemented responsive user interfaces for various client websites, emphasizing a mobile-first approach.
+            </li>
+            <li>
+              Collaborated with UX/UI designers to create visually appealing and intuitive web experiences.
+            </li>
+            <li>
+              Conducted cross-browser testing to ensure consistent performance across multiple platforms.
+            </li>
+          </ol>
+        </div>
+      </div>
+      <div class="checkpoint">
+        <div>
+          <h2>Freelance Web Developer | Self-Employed | 2014 - 2016</h2>
+          <ol>
+            <li>
+              Worked independently to deliver bespoke web solutions for small businesses and individuals.
+            </li>
+            <li>
+              Managed end-to-end project lifecycles, from requirements gathering to deployment.
+            </li>
+            <li>
+              Cultivated strong client relationships, resulting in repeat business and referrals.
+            </li>
+          </ol>
+        </div>
+      </div>
+      <div class="checkpoint">
+        <div>
+          <h2>Technical Support Specialist | ConnectTech Solutions | June 2013 - December 2013</h2>
+          <ol>
+            <li>
+              Provided timely and effective technical support to clients, troubleshooting hardware and software issues.
+            </li>
+            <li>
+              Collaborated with the development team to escalate and resolve complex technical issues.
+            </li>
+            <li>
+              Developed user-friendly documentation and conducted training sessions for clients.
+            </li>
+          </ol>
+        </div>
+      </div>
+      <div class="checkpoint">
+        <div>
+          <h2> IT Intern | Global Innovations Corp. | May 2012 - August 2012</h2>
+          <ol>
+            <li>
+              Assisted in the administration and maintenance of the company's IT infrastructure.
+            </li>
+            <li>
+              Participated in the implementation of software upgrades and system enhancements.
+            </li>
+            <li>
+              Conducted research on emerging technologies, providing recommendations for future IT investments.
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="scroll-checkpoint">
+    <div class="heading">
+      <h1>Contact</h1>
+    </div>
+    <div class="call-to-action">
+      <div>
+        <h2>Let's Work Together</h2>
+        <a href="#" class="btn-main">
+          <span>Hire Me</span>
+        </a>
+      </div>
+    </div>
+    <div class="dark-bg">
+      <div class="container">
+        <div class="contact-cards">
+          <div class="card">
+            <div>
+              <i class="fas fa-phone"></i>
+              <p>(704) 220-7295</p>
+            </div>
+          </div>
+          <div class="card">
+            <div>
+              <i class="fas fa-envelope"></i>
+          <p>JoshuaBnixon@gmail.com</p>
+            </div>
+          </div>
+          <div class="card">
+            <div>
+              <i class="fas fa-map-marker-alt"></i>
+              <p>Charlotte, NC</p>
+            </div>
+          </div>
+        </div>
+        <div class="social-media">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-behance"></i></a>
+          <a href="#"><i class="fab fa-dribbble"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Footer-->
+  <footer>
+    <p>&copy; Joshua Nixon</p>
+  </footer>
+
+  <!--Mouse Tracker-->
+  <div class="tracker"></div>
+
+  <!--Preloader-->
+  <div class="preloader">
+    <div class="loader"><span></span></div>
+  </div>
+
+  <!--Lenis Smooth Scroll JS Library-->
+  <script src="https://unpkg.com/@studio-freight/lenis@1.0.29/bundled/lenis.min.js"></script> 
+  <!--GSAP Animation JS Library-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <!--GSAP Scroll Trigger Plugin-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
